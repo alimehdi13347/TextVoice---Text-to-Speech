@@ -1,0 +1,61 @@
+body {
+background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+width: 100vw;
+height: 100vh;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+  color: white;
+  gap: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 350px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: blanchedalmond;
+  padding: 10px;
+  font-size: 18px;
+  transition: border 0.3s ease;
+  border: none;
+  resize: none;
+}
+
+textarea:focus {
+  outline: none;
+  border: 3px solid rgb(224, 227, 225);
+}
+
+select {
+  width: 350px;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  color: black;
+  font-size: 16px;
+}
+
+.button {
+  width: 100px;
+  padding: 5px;
+  border-radius: 10px;
+  background: purple;
+  color: rgb(221, 220, 217);
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: darkviolet;
+}
